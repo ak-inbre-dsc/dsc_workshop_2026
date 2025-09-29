@@ -16,7 +16,7 @@ This folder contains Jupyter notebooks for the nanopore data analysis and the ve
 - [**DSC_Module_4_process_AS.ipynb**](Nanopore_Analysis/DSC_Module_4_process_AS.ipynb) - This document provides a step-by-step walkthrough of the adaptive sampling analysis pipeline.
 
 ## Git  
-- [**Lesson1_Setting_up_git.ipynb**](Git/DSC_Module_2_Epi2meSetup.ipynb) - This notebook includes configuring your git environment.
+- [**Lesson1_Setting_up_git.ipynb**](Git/Lesson1_Setting_up_git.ipynb) - This notebook includes configuring your git environment.
 
 - [**Lesson2_Create_Project_and_View_History_Ignoring_Files.ipynb**](Git/Lesson2_Create_Project_and_View_History_Ignoring_Files.ipynb) - This notebook includes creating your first version-controlled project, learning how to stage and commit a file, make changes to this file, view the history of your project, and create the .gitignore file. 
 
