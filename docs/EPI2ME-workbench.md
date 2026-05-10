@@ -2,7 +2,7 @@
 title: "Module 2_4: Prepare a Vertex AI Workbench for the Genomics Workshop"
 layout: page
 permalink: /tutorials/vertex-ai-EPI2ME-workbench/
-date: 2025-05-21
+date: 2026-05-10
 description: "Spin up an e2‑standard‑8 notebook instance, mount the dsc‑epi2me‑demo bucket, and clone the workshop repo—Console‑only."
 nav_order: 3
 ---
@@ -17,14 +17,14 @@ This guide walks through creating the instance in the Google Cloud Console, open
 
 - A Google Cloud project with **billing enabled**.
 - Project‑level **Editor** (or higher) permissions.
-- The **Vertex AI**, **Notebooks**, and **Compute Engine** APIs enabled.
+- The **Notebooks**, **Agent Platform API**, and **Compute Engine API** APIs enabled.
 
 ---
 
 ## 2 · Create the e2‑standard‑16 instance
 
-1. Open **Vertex AI → Workbench → User‑managed notebooks**.  
-2. Click **New → Customize**.  
+1. Open **Agent Platform → Notebooks → Workbench**.  
+2. Click **Create New** and scroll down to click **Advanced Options**.  
 3. Complete the form:
 
    | Field            | Value                                                   |
@@ -34,13 +34,13 @@ This guide walks through creating the instance in the Google Cloud Console, open
    | **Machine type** | **e2-standard-16** (16 vCPU / 64 GB RAM)                |
 
 
-4. Leave permissions unchanged and click **Create**. Wait until the status is **RUNNING**.
+4. Leave permissions and everything else unchanged and click **Create**. Wait until the status is **RUNNING**.
 
 ---
 
 ## 3 · Open JupyterLab
 
-Click the instance name, then **Open JupyterLab**. A new browser tab launches your notebook environment.
+ Once the instance is running, click **Open JupyterLab** next to the instance name. A new browser tab launches your notebook environment.
 
 ---
 
@@ -48,11 +48,11 @@ Click the instance name, then **Open JupyterLab**. A new browser tab launches 
 
 ### Using **Mount Shared Storage** (JupyterLab 3 GUI)
 
-1. In the **File Browser** pane, click **Mount Shared Storage** (hamburger icon).  
+1. In the **File Browser** pane, click the **Mount Shared Storage** icon (triangle above a line).  
 2. Choose **Cloud Storage bucket**, enter `dsc-epi2me-demo`, and click **Mount**.  
 3. The bucket now appears as a top‑level folder and is available at `/home/jupyter/dsc-epi2me-demo/`.
 
-### Terminal alternative (optional)
+### Terminal alternative (optional!)
 
 ```bash
 # In a JupyterLab Terminal tab
@@ -69,21 +69,21 @@ gcsfuse dsc-epi2me-demo ~/dsc-epi2me-demo
 ### GUI method (Git menu)
 
 1. In the top menu, choose **Git → Clone a Repository…**  
-2. Paste `https://github.com/drownlab/dsc_workshop_2025.git` and click **Clone**.  
-3. The repo appears in the file browser inside `~/dsc_workshop_2025/`.
+2. Paste `https://github.com/ak-inbre-dsc/dsc_workshop_2026.git` and click **Clone**.  
+3. The repo appears in the file browser inside `~/dsc_workshop_2026/`.
 
 ### Terminal alternative
 
 ```bash
 cd ~
-git clone https://github.com/drownlab/dsc_workshop_2025.git
+git clone https://github.com/ak-inbre-dsc/dsc_workshop_2026.git
 ```
 
 ---
 
 ## 6 · Work through the workshop notebooks
 
-Open the **`notebooks/`** folder inside the cloned repo and run the notebooks **in this order**:
+Open the **`notebooks/Nanopore_Analysis`** folder inside the cloned repo and run the notebooks **in this order**:
 
 | # | Notebook                                    | Purpose                                                                    |
 |---|---------------------------------------------|----------------------------------------------------------------------------|
@@ -102,4 +102,4 @@ Open the **`notebooks/`** folder inside the cloned repo and run the notebooks **
 
 ## 7 · Cost‑saving reminder
 
-When you’re finished, return to the **Instances** list (Vertex AI → Workbench), check your notebook VM, and click **Stop**. Billing pauses while the instance is stopped.
+When you’re finished, return to the **Instances** list (Agent Platform → Notebooks → Workbench), check your notebook VM, and click **Stop**. Billing pauses while the instance is stopped.

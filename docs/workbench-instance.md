@@ -20,9 +20,11 @@ This quick‑start shows how to spin up a **user‑managed notebook** instance *
 
 ## 1 · Enable required APIs (Console)
 
+Google Cloud should prompt you with APIs it needs to start and run your instance. If not, follow these steps:
 1. In the left sidebar, select **APIs & Services → Library**.
 2. Search for and enable the following:
    - **Notebooks API**
+   - **Agent Platform API**
    - **Compute Engine API**
 
 > You’ll see an **Enable** button on each API page—click it, wait a few seconds, then move on to the next API.
@@ -37,7 +39,7 @@ Workbench instances are **regional**. If you’re based in Alaska, `us‑west1 
 
 ## 3 · Create the Workbench instance
 
-1. Navigate to **Notebooks → Agent Platform → Workbench**.
+1. Navigate to **Agent Platform → Notebooks → Workbench**.
 2. Make sure you're in the **Instances** view.
 3. Click **Create New**.
 4. Fill in the form:
