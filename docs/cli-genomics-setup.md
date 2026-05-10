@@ -1,5 +1,5 @@
 ---
-title: "Module 2_2: Setup Data for ‘Introduction to the Command Line for Genomics’"
+title: "Module 2_3: Setup Data for ‘Introduction to the Command Line for Genomics’"
 layout: page
 permalink: /tutorials/cli-genomics-setup/
 date: 2026-05-10
