@@ -6,7 +6,7 @@ date: 2026-05-10
 description: "May 11-15 in Fairbanks, Alaska · Sponsored by Alaska INBRE"
 nav_order: 1
 ---
-![Workshop banner]({{ "/assets/images/DSC_Wrokshop_2025_goofy.jpg" | relative_url }}){: .img-fluid }
+![Workshop banner](/dsc_workshop_2026/assets/images/DSC_Wrokshop_2025_goofy.jpg){: .img-fluid }
 
 ## May 11-15 · Fairbanks, Alaska · Alaska INBRE
 
