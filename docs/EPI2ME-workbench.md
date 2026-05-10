@@ -1,7 +1,7 @@
 ---
-title: "Module 2_4: Prepare a Vertex AI Workbench for the Genomics Workshop"
+title: "Module 2_2: Nanopore data analysis using EPI2ME"
 layout: page
-permalink: /tutorials/vertex-ai-EPI2ME-workbench/
+permalink: /tutorials/EPI2ME-workbench/
 date: 2026-05-10
 description: "Spin up an e2‑standard‑8 notebook instance, mount the dsc‑epi2me‑demo bucket, and clone the workshop repo—Console‑only."
 nav_order: 3
@@ -29,7 +29,7 @@ This guide walks through creating the instance in the Google Cloud Console, open
 
    | Field            | Value                                                   |
    | ---------------- | ------------------------------------------------------- |
-   | **Name**         | `vertex-workshop-e2-16`                                 |
+   | **Name**         | `DSC-workshop-e2-16`                                 |
    | **Region**       | the same region you used before (e.g., `us-central1`)   |
    | **Machine type** | **e2-standard-16** (16 vCPU / 64 GB RAM)                |
 
