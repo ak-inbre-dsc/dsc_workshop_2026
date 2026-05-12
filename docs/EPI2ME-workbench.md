@@ -1,5 +1,5 @@
 ---
-title: "Module 2_2: Nanopore data analysis using EPI2ME"
+title: "Module 2_3: Nanopore data analysis using EPI2ME"
 layout: page
 permalink: /tutorials/EPI2ME-workbench/
 date: 2026-05-10
@@ -29,7 +29,7 @@ This guide walks through creating the instance in the Google Cloud Console, open
 
    | Field            | Value                                                   |
    | ---------------- | ------------------------------------------------------- |
-   | **Name**         | `DSC-workshop-e2-16`                                 |
+   | **Name**         | `dsc-workshop-e2-16`                                 |
    | **Region**       | the same region you used before (e.g., `us-central1`)   |
    | **Machine type** | **e2-standard-16** (16 vCPU / 64 GB RAM)                |
 

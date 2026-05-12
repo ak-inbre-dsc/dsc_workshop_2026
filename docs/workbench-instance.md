@@ -2,9 +2,9 @@
 title: "Module 2_1: Create Google Cloud Workbench Instance"
 layout: page
 permalink: /tutorials/workbench-instance/
-date: 2026-04-29
+date: 2026-05-11
 description: "Create your first Workbench instance using **only** the Google Cloud Console."
-nav_order: 2
+nav_order: 1
 ---
 
 > **Why Workbench?** It provides a managed JupyterLab environment that lives close to your Google Cloud data and scales from modest CPU notebooks to GPU/TPU powerhouses—perfect for genomics and machine‑learning workflows.
@@ -33,13 +33,7 @@ Google Cloud should prompt you with APIs it needs to start and run your instance
 
 ---
 
-## 2 · Note a region
-
-Workbench instances are **regional**. If you’re based in Alaska, `us‑west1 (Oregon)` or `us‑central1 (Iowa)` usually give the best latency. Jot down the region you’ll use; you’ll pick it again in the next step.
-
----
-
-## 3 · Create the Workbench instance
+## 2 · Create the Workbench instance
 
 1. Navigate to **Agent Platform → Notebooks → Workbench**.
 2. Make sure you're in the **Instances** view.
@@ -52,19 +46,21 @@ Workbench instances are **regional**. If you’re based in Alaska, `us‑west1 
 | **Region**       | The region you chose above (e.g., **us-central1**) |
 | **Machine type** | **e2-standard-4** (4 vCPU / 16 GB RAM)             |
 
+Workbench instances are **regional**. If you’re based in Alaska, `us‑west1 (Oregon)` or `us‑central1 (Iowa)` usually give the best latency.
+
 5. Leave **Permissions** at the default. (Workbench automatically creates/uses a service account with the *Notebooks Service Agent* role.)
 6. Click **Create**. The instance status turns **PROVISIONING**, then **RUNNING**—usually within two minutes.
 
 ---
 
-## 4 · Open JupyterLab
+## 3 · Open JupyterLab
 
 1. Wait for the status turns into a green checkmark, indicating that the instance is **RUNNING**.
 2. Click **Open JupyterLab**. A new browser tab opens your notebook environment—no SSH keys or port forwarding needed.
 
 ---
 
-## 5 · Verify the environment with “Hello, world!” examples
+## 4 · Verify the environment with “Hello, world!” examples
 
 ### Python notebook
 
@@ -79,14 +75,14 @@ print("Hello, world!")
 
 ### Bash terminal
 
-1. Still in the **Launcher**, click the **Terminal** icon to open a shell tab.  
+1. Reopen the **Launcher**, by opening a new tab using the **+**. Click the **Terminal** icon to open a shell tab.  
 2. At the prompt, type:
 
 ```bash
 echo "Hello, world from Bash!"
 ```
 
-3. Hit **Enter**. The terminal should echo the same text back, proving the VM’s shell environment is working.
+3. Hit **Enter**. The terminal should echo the same text back, proving the instance’s shell environment is working.
 
 > Feel free to explore additional kernels (R, Julia) or open more terminals from the Launcher.
 
@@ -94,4 +90,4 @@ echo "Hello, world from Bash!"
 
 ## 6 · Cost‑saving tips
 
-- **Stop** the instance when idle: return to the **Instances** page (Notebooks → Agent Platform → Workbench), tick the checkbox next to your instance, and click **Stop** in the toolbar.
+- **Stop** the instance when idle: return to the **Instances** page (Agent Platform → Notebooks → Workbench), tick the checkbox next to your instance, and click **Stop** in the toolbar.
