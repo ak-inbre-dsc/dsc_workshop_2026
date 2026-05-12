@@ -1,5 +1,5 @@
 ---
-title: "Module 2_2: Nanopore data analysis using EPI2ME"
+title: "Module 2_3: Nanopore data analysis using EPI2ME"
 layout: page
 permalink: /tutorials/EPI2ME-workbench/
 date: 2026-05-10

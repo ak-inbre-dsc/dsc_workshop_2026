@@ -4,7 +4,7 @@ layout: page
 permalink: /tutorials/workbench-instance/
 date: 2026-05-11
 description: "Create your first Workbench instance using **only** the Google Cloud Console."
-nav_order: 2
+nav_order: 1
 ---
 
 > **Why Workbench?** It provides a managed JupyterLab environment that lives close to your Google Cloud data and scales from modest CPU notebooks to GPU/TPU powerhouses—perfect for genomics and machine‑learning workflows.
