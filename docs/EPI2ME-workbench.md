@@ -7,9 +7,7 @@ description: "Spin up an e2‑standard‑8 notebook instance, mount the dsc‑ep
 nav_order: 3
 ---
 
-> **Why an e2‑standard‑8?** The 8 vCPU / 32 GB RAM VM gives faster I/O and more head‑room for assembly tasks compared with the default e2‑standard‑4.
-
-This guide walks through creating the instance in the Google Cloud Console, opening JupyterLab, mounting a Cloud Storage bucket, cloning the workshop’s GitHub repo, and running the example notebooks.
+>  This guide walks through creating a new instance in the Google Cloud Console, opening JupyterLab, mounting a Cloud Storage bucket, cloning the workshop’s GitHub repo, and running the example notebooks. 
 
 ---
 

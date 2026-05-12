@@ -7,7 +7,7 @@ description: "Download and unpack the Data Carpentry shell_data files on your Go
 nav_order: 2
 ---
 
-> These instructions prepare the **shell_data** directory used in the Software Carpentry *Introduction to the Command Line for Genomics* lesson. Follow them in any Linux terminal—including your Google Cloud instance.
+> This tutorial was designed by the fine folks from Data Carpentry - a non-profit organization that teaches fundamental data management and analysis skills to researchers. You will be following their  *Introduction to the Command Line for Genomics* lesson today.
 
 ---
 ### Before you begin:
@@ -53,9 +53,7 @@ cd ~
 
 ### Next steps
 
-This tutorial was designed by the fine folks from Data Carpentry - a non-profit organization that teaches fundamental data management and analysis skills to researchers. 
-
-Today you will cover the 6 topics below using their *Introduction to the Command Line for Genomics* tutorial. As we are working from Jupyter Lab on our Google Cloud instance, you can **skip the crossed-out sections**:
+Today you will cover the 6 topics below using Data Carpentry's *Introduction to the Command Line for Genomics* tutorial. As we are working from Jupyter Lab on our Google Cloud instance, you can **skip the crossed-out sections**:
 
 1. Introducing the Shell
 - What is a shell and why should I care?
