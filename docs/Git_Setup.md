@@ -1,13 +1,21 @@
+---
+title: "Module 2_4: Git Module Setup"
+layout: page
+permalink: /tutorials/Git_Startup/
+date: 2026-05-10
+nav_order: 4
+---
 
-# Important! 
+# Getting started with Git
 
-> ## If your instance DOES NOT CONTAIN the dsc_workshop_2026 folder in the home directory, do ONLY section A and C.  
+## 1. Start your small (e2-standard-4) instance & open JupyterLab.
 
-> ## If your instance CONTAINS the dsc_workshop_2026 folder in the home directory, do ONLY section B and C.
+## 2. Remove the old workshop repository (if present). In the **Terminal**, run:
+```bash
+rm -r dsc_workshop_2026/
+```
 
---- 
-
-## Section A: Clone the workshop Git repository
+## 3. Clone the workshop Git repository
 
 ### GUI method 
 
@@ -21,25 +29,9 @@
 cd ~
 git clone https://github.com/ak-inbre-dsc/dsc_workshop_2026.git
 ```
-
 ---
 
-## Section B: Pull the latest changes from the Github repository
-
-### GUI method 
-
-1. Navigate to your dsc_workshop_2026 directory
-2. In the top menu, choose **Git → Pull from Remote**
-
-### Terminal alternative
-
-```bash
-cd ~/dsc_workshop_2026
-git pull
-```
-
-
-## Section C: Work through the workshop notebooks
+## 4. Work through the workshop notebooks
 
 Open the **`notebooks/Git`** folder inside the cloned repo and run the notebooks **in this order**:
 
