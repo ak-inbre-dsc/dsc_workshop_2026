@@ -1,17 +1,19 @@
 ![header](assets/images/git_header_v2.png)
 
-# Materials for the 2025 Alaska INBRE Data Science Core Genomics Workshop 
+# Materials for the 2026 Alaska INBRE Data Science Core Genomics Workshop 
 
-Welcome! This repository contains the materials that we used during our 2025 workshop. The easiest way to access all the materials is to [download the whole repository](https://github.com/ak-inbre-dsc/dsc_workshop_2025/archive/refs/heads/main.zip). A full description of the materials can be found [here](docs/full_materials_description.md)
+Welcome! This repository contains the materials that we used during our 2026 workshop. The easiest way to access all the materials is to [download the whole repository](https://github.com/ak-inbre-dsc/dsc_workshop_2026/archive/refs/heads/main.zip). 
 
 
 ## ![](assets/images/ppt_icon.png) [Lectures](lectures)  
 
-1. [Introduction to Nanopore Sequencing](lectures/DSC-Workshop2025_Mod-1-2_IntroNanopore.pdf)
-2. [Cloud Computing and HPCs](lectures/DSC-Workshop2025_Mod-2_Cloud-Computing-and-HPCs.pdf)
-3. [Pipelines, Containers, and Workflow Management Systems](lectures/DSC-Workshop2025_Mod-3_pipelines-workflows-containers.pdf)
-4. [Principles of Reproducible Research](lectures/DSC-Workshop2025_Mod-3_Reproducible-Research-Principles.pdf)
-5. [Version Control with Git](lectures/DSC-Workshop2025_Mod-3_VersionControl.pdf)
+1. [Introduction to Nanopore Sequencing](lectures/DSC_Workshop2026_Mod_1_2_IntroNanopore.pdf)
+2. [Data Generation & Mock Communities](lectures/DSC_Workshop2026_Mod_1_3_DataGeneration.pdf)
+3. [Cloud Computing and HPCs](lectures/DSC_Workshop2026_Mod_2_1_CloudComputing.pdf)
+4. [Intro to Command Line](lectures/DSC_Workshop2026_Mod_2_2_IntroCommandLine.pdf)
+5. [Google Colab](lectures/DSC_Workshop2026_Mod_2_3_Colab.pdf)
+6. [Reproducible Research Principles & Git](lectures/DSC_Workshop2026_Mod_3_1_Reproducible_Research_Principles_Git.pdf)
+7. [Reproducible Research Tools & Github](lectures/DSC_Workshop2026_Mod_3_2_Reproducible_Research_Tools_Github.pdf)
 
 ##  :notebook: [Jupyter Notebooks](notebooks/)
 
@@ -25,18 +27,16 @@ Welcome! This repository contains the materials that we used during our 2025 wor
 
 
 ### 2. Version Control with Git
-* Lesson 1: [Configure Git](notebooks/Git/Lesson1_Setting_up_git.ipynb)  
-* Lesson 2: [Getting started](notebooks/Git/Lesson2_Create_Project_and_View_History_Ignoring_Files.ipynb)  
-* Lesson 3: [Connecting to Github](notebooks/Git/Lesson3_Connecting_to_Github.ipynb)  
-* Lesson 4: [Branching and merging](notebooks/Git/Lesson4_Branching_merging.ipynb)  
-* Lesson 5: [Collaborating with Git](notebooks/Git/Lesson5_Collaborating.ipynb)  
-* Lesson 6: [Solve a merge conflicts](notebooks/Git/Lesson6_Managing_Conflict.ipynb)  
-* Lesson 7: [RStudio & Git](notebooks/Git/Lesson7_RStudioServer_Git.ipynb)  
+* Lesson 1: [Git basics](notebooks/Git/DSC_Module_3_Lesson1_Git.ipynb)  
+* Lesson 2: [Git & Github](notebooks/Git/DSC_Module_3_Lesson2_Git_and_Github)  
+* Lesson 3a: [Collaborating with Github: Collaborator 1](notebooks/Git/DSC_Module_3_Lesson3_Collaborating_Collaborator1.ipynb)  
+* Lesson 3b: [Collaborating with Github: Collaborator 2](notebooks/Git/DSC_Module_3_Lesson3_Collaborating_Collaborator2.ipynb) 
+* Lesson 4: [Using Git with RStudio Server](notebooks/Git/DSC_Module_3_Lesson4_RStudioServer_Git.ipynb)  
 
 
 ## ![](assets/images/code_icon.png) [Scripts](scripts/)
 
-* [Install bioinformatics tools](scripts/install_bioinfo_tools.sh) on a Google Cloud Vertex AI instance.
+* [Install bioinformatics tools](scripts/install_bioinfo_tools.sh) on a Google Cloud workbench instance.
 * [Process and analyze nanopore adaptive sampling data](scripts/as_processing_cloud_v2.sh)
 * [Collect SeqKit stats](scripts/get_all_stats.sh) for various FASTQ outputs from the adaptive sampling analysis pipeline.
 * Visualize sequencing data in R through [violin plots](scripts/violinplot_treatments_isolates.R) 
