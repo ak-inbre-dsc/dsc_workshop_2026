@@ -21,6 +21,6 @@ This folder contains Jupyter notebooks for the nanopore data analysis and the ve
 
 - [**DSC_Workshop2026_Mod_3_Lesson3_Collaborating_Collaborator1.ipynb**](Git/DSC_Module_3_Lesson3_Collaborating_Collaborator1.ipynb) - This notebook is part of the collaboration on Github Lesson and contains instructions for Collaborator 1.
 
-[**DSC_Workshop2026_Mod_3_Lesson3_Collaborating_Collaborator2.ipynb**](Git/DSC_Workshop2026_Mod_3_Lesson3_Collaborating_Collaborator1.ipynb) - This notebook is part of the collaboration on Github Lesson and contains instructions for Collaborator 2.
+- [**DSC_Workshop2026_Mod_3_Lesson3_Collaborating_Collaborator2.ipynb**](Git/DSC_Workshop2026_Mod_3_Lesson3_Collaborating_Collaborator1.ipynb) - This notebook is part of the collaboration on Github Lesson and contains instructions for Collaborator 2.
 
 - [**DSC_Workshop2026_Mod_3_Lesson4_RStudioServer_Git.ipynb**](Git/DSC_Workshop2026_Mod_3_Lesson4_RStudioServer_Git.ipynb) - This notebook includes how to clone your repository into RStudio Server and use RStudio's built-in Git tools to commit and push changes back to your GitHub repository. 
