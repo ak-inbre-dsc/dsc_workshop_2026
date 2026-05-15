@@ -28,7 +28,7 @@ Welcome! This repository contains the materials that we used during our 2026 wor
 
 ### 2. Version Control with Git
 * Lesson 1: [Git basics](notebooks/Git/DSC_Module_3_Lesson1_Git.ipynb)  
-* Lesson 2: [Git & Github](notebooks/Git/DSC_Module_3_Lesson2_Git_and_Github)  
+* Lesson 2: [Git & Github](notebooks/Git/DSC_Module_3_Lesson2_Git.ipynb)  
 * Lesson 3a: [Collaborating with Github: Collaborator 1](notebooks/Git/DSC_Module_3_Lesson3_Collaborating_Collaborator1.ipynb)  
 * Lesson 3b: [Collaborating with Github: Collaborator 2](notebooks/Git/DSC_Module_3_Lesson3_Collaborating_Collaborator2.ipynb) 
 * Lesson 4: [Using Git with RStudio Server](notebooks/Git/DSC_Module_3_Lesson4_RStudioServer_Git.ipynb)  
