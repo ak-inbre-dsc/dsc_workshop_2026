@@ -3,21 +3,21 @@
 This folder contains descriptions of the microbial mock communities and library preparation/sequencing protocols used.  
 
 ## Mock Communities
-- [**d6306_zymobiomics_microbial_community_dna_standard.pdf**](Mock_Communities/d6306_zymobiomics_microbial_community_dna_standard.pdf) - DNA community standard used in 2025. Contains eight bacteria (three Gram-negative and five Gram-positive) and two yeasts.  
+- [**d6306_zymobiomics_microbial_community_dna_standard.pdf**](Mock_Communities/d6305_d6306_zymobiomics_microbial_community_dna_standard_protocol.pdf) - DNA community standard used in 2025. Contains eight bacteria (three Gram-negative and five Gram-positive) and two yeasts.  
 
-- [**d6322_zymobiomics_hmw_dna_standard.pdf**](Mock_Communities/d6322_zymobiomics_hmw_dna_standard.pdf) - DNA community standard used for the ligation sequencing  projects. Contains seven bacteria (3 gram-negative and 4 gram-positive) and 1 yeast.  
+- [**d6322_zymobiomics_hmw_dna_standard.pdf**](Mock_Communities/d6322_zymobiomics_hmw_dna_standard_protocol.pdf) - DNA community standard used for the ligation sequencing  projects. Contains seven bacteria (3 gram-negative and 4 gram-positive) and 1 yeast.  
 
-[**D6331_zymobiomics_gut_microbiome_standard**](d6331_zymobiomics_gut_microbiome_standard_data_sheet.pdf) 
+[**D6331_zymobiomics_gut_microbiome_standard**](Mock_Communities/d6331_zymobiomics_gut_microbiome_standard_protocol.pdf) 
 - Gut microbiome standard used for barcoding project.  Contains 8 bacterial strains(7 Gram-negative,7 Gram-positive, 1 variable), 2 fungal strains (*Saccharomyces cerevisiae* and *Candida albicans*),and 1 archaeal strain(*Methanobrevibacter smithii*). Present in a staggered abundance.
 
-[**D6331 zymobiomics oral microbiome standard**](d6332_zymobiomics_oral_microbiome_standard_data_sheet.pdf) 
+[**D6332 zymobiomics oral microbiome standard**](Mock_Communities/d6332_zymobiomics_oral_microbiome_standard_protocol.pdf) 
 - Oral microbiome standard used for adaptive sampling project. Contains 12 bacterial strains(6 Gram-negative,6 Gram-positive). Present in a staggered abundance.
 
 ## Protocols
 - [**Ligation sqk lsk114 Checklist**](Protocols/genomic-dna-by-ligation-sqk-lsk114-document-checklist-GridION-en-GDE_9161_v114_revAC_24Sep2025-67.pdf) - Full ligation library preparation checklist for beginners.
 
 
-- [**Ligation sqk lsk114 protocol**](Protocols/genomic-dna-by-ligation-sqk-lsk114-document) - Full library preparation and sequencing protocol for sequencing of a DNA sample using the Ligation Sequencing Kit V14 (SQK-LSK114).
+- [**Ligation sqk lsk114 protocol**](Protocols/genomic-dna-by-ligation-sqk-lsk114-document-document-GridION-en-GDE_9161_v114_revAC_24Sep2025-67.pdf) - Full library preparation and sequencing protocol for sequencing of a DNA sample using the Ligation Sequencing Kit V14 (SQK-LSK114).
 
 - [**Ligation sqk lsk114 short protocol**](Protocols/genomic-dna-by-ligation-sqk-lsk114-document-reference-GridION-en-GDE_9161_v114_revAC_24Sep2025-67.pdf) - Shortened ligation library preparation protocol for experienced users.
 

@@ -28,8 +28,8 @@ Welcome! This repository contains the materials that we used during our 2026 wor
 
 ### 2. Version Control with Git
 * Lesson 1: [Git basics](notebooks/Git/DSC_Workshop2026_Mod_3_Lesson1_Git.ipynb)  
-* Lesson 2: [Git & Github](notebooks/Git/DSC_Workshop2026_Mod_Lesson2_Git.ipynb)  
-* Lesson 3a: [Collaborating with Github: Collaborator 1](notebooks/Git/DSC_Workshop2026_Mod_Lesson3_Collaborating_Collaborator1.ipynb)  
+* Lesson 2: [Git & Github](notebooks/Git/DSC_Workshop2026_Mod_3_Lesson2_Git_and_Github.ipynb)  
+* Lesson 3a: [Collaborating with Github: Collaborator 1](notebooks/Git/DSC_Workshop2026_Mod_3_Lesson3_Collaborating_Collaborator1.ipynb)  
 * Lesson 3b: [Collaborating with Github: Collaborator 2](notebooks/Git/DSC_Workshop2026_Mod_3_Lesson3_Collaborating_Collaborator2.ipynb) 
 * Lesson 4: [Using Git with RStudio Server](notebooks/Git/DSC_Workshop2026_Mod_3_Lesson4_RStudioServer_Git.ipynb)  
 
@@ -37,7 +37,7 @@ Welcome! This repository contains the materials that we used during our 2026 wor
 ## ![](assets/images/code_icon.png) [Scripts](scripts/)
 
 * [Install bioinformatics tools](scripts/DSC_Workshop2026_Mod_4_install_bioinfo_tools.sh) on a Google Cloud workbench instance.
-* [Process and analyze nanopore adaptive sampling data](DSC_Workshop2026_Mod_4_scripts/as_processing_cloud_v2.sh)
+* [Process and analyze nanopore adaptive sampling data](DSC_Workshop2026_Mod_4_scripts/DSC_Workshop2026_Mod_4_as_processing_v2026.sh)
 * [Collect SeqKit stats](scripts/DSC_Workshop2026_Mod_4_get_all_stats.sh) for various FASTQ outputs from the adaptive sampling analysis pipeline.
 * Visualize sequencing data in R through [violin plots](scripts/DSC_Workshop2026_violinplot_treatments_isolates.R) 
 * Create [bar plots](scripts/DSC_Workshop2026_plot_treatments_isolates.R) in R to compare different sequencing metrics.
