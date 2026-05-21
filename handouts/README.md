@@ -10,8 +10,8 @@ This folder contains descriptions of the microbial mock communities and library 
 - [**D6331_zymobiomics_gut_microbiome_standard**](Mock_Communities/d6331_zymobiomics_gut_microbiome_standard_protocol.pdf) 
  Gut microbiome standard used for barcoding project.  Contains 8 bacterial strains(7 Gram-negative,7 Gram-positive, 1 variable), 2 fungal strains (*Saccharomyces cerevisiae* and *Candida albicans*),and 1 archaeal strain(*Methanobrevibacter smithii*). Present in a staggered abundance.
 
-[**D6332 zymobiomics oral microbiome standard**](Mock_Communities/d6332_zymobiomics_oral_microbiome_standard_protocol.pdf) 
-- Oral microbiome standard used for adaptive sampling project. Contains 12 bacterial strains(6 Gram-negative,6 Gram-positive). Present in a staggered abundance.
+- [**D6332 zymobiomics oral microbiome standard**](Mock_Communities/d6332_zymobiomics_oral_microbiome_standard_protocol.pdf) 
+Oral microbiome standard used for adaptive sampling project. Contains 12 bacterial strains(6 Gram-negative,6 Gram-positive). Present in a staggered abundance.
 
 ## Protocols
 - [**Ligation sqk lsk114 Checklist**](Protocols/genomic-dna-by-ligation-sqk-lsk114-document-checklist-GridION-en-GDE_9161_v114_revAC_24Sep2025-67.pdf) - Full ligation library preparation checklist for beginners.
