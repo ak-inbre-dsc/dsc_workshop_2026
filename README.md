@@ -43,7 +43,7 @@ Welcome! This repository contains the materials that we used during our 2026 wor
 * Create [bar plots](scripts/DSC_Workshop2026_plot_treatments_isolates.R) in R to compare different sequencing metrics.
 
 
-## :bookmark_tabs: [Nanopore Handouts & Instructional Videos](handouts)  
+## :bookmark_tabs: [Nanopore Handouts & Instructional Videos](handouts/)  
 Descriptions of the mock communities and different library prepapration methods 
 
 * [Mock Communities](handouts/Mock_Communities)
