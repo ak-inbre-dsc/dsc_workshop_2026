@@ -43,11 +43,12 @@ Welcome! This repository contains the materials that we used during our 2026 wor
 * Create [bar plots](scripts/DSC_Workshop2026_plot_treatments_isolates.R) in R to compare different sequencing metrics.
 
 
-## :bookmark_tabs: [Nanopore Handouts](handouts)  
+## :bookmark_tabs: [Nanopore Handouts & Instructional Videos](handouts)  
 Descriptions of the mock communities and different library prepapration methods 
 
 * [Mock Communities](handouts/Mock_Communities)
 * [Sequencing protocols & Information](handouts/Protocols)
+* [Instruction Videos for Library Prep & Flow Cell Priming/Loading](handouts/Videos)
 
 
 *Alaska INBRE is an Institutional Development Award (IDeA) from the National Institute of General Medical Sciences of the National Institute of Health (NIH) under grant number P20GM103395.*
