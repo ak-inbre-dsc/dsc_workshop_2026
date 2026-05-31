@@ -42,8 +42,11 @@ Oral microbiome standard used for adaptive sampling project. Contains 12 bacteri
 
 - [**Video Demonstration: MinION/GridION Flow Cell Check**](https://nanoporetech.com/resource-centre/minknow-flow-cell-check) 
 
-- [**Video Demonstration: Ligation Sequencing Kit XL**](https://nanoporetech.com/resource-centre/ligation-sequencing-kit-xl-demonstration). *Caution*: This is the protocol for the XL protocol as the ligation sqk-lsk114 version we used during this workshop.
-
 - [**Video Demonstration: Priming and loading a MinION Flow Cell**](https://nanoporetech.com/resource-centre/a-practical-demonstration-of-priming-and-loading-a-minion-flow-cell) 
 
+- [**Video Demonstration: Ligation Sequencing Kit XL**](https://nanoporetech.com/resource-centre/ligation-sequencing-kit-xl-demonstration). *Note*: This demonstration uses the XL kit which includes larger total reagent volumes for processing a higher number of samples simultaneously. The per sample reaction amounts are identical to the SQK-LSK114 protocol we used.  
+
 - [**Video Demonstration: Oxford Nanopore Technologies SQK-RBK114 Rapid Barcoding kit**](https://www.youtube.com/watch?v=5AvJ1eQz67s) 
+
+
+
