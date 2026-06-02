@@ -48,5 +48,7 @@ Oral microbiome standard used for adaptive sampling project. Contains 12 bacteri
 
 - [**Video Demonstration: Oxford Nanopore Technologies SQK-RBK114 Rapid Barcoding kit**](https://www.youtube.com/watch?v=5AvJ1eQz67s) 
 
+- [**MinKnow Software Run Setup for Adaptive Sampling, Barcoding & Ligation sequencing**](Protocols/MinKnow_run_setup.pdf)
 
+- [**Video: MinKnow Software: Explanation of Run Results**](https://www.youtube.com/watch?v=lnr1DJLaMkM)
 
